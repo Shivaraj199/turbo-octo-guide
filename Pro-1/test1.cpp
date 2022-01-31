@@ -15,6 +15,7 @@ public:
 
 LinkedList *removeDuplicatesFromLinkedList(LinkedList *linkedList) {
   // Write your code here.
+  cout<<"Test1";
   return nullptr;
 }
 
@@ -46,7 +47,7 @@ vector<int> getNodesInArray(LinkedList *linkedList) {
 int main (){
       auto input = addMany(new LinkedList(1), vector<int>{1, 3, 4, 4, 4, 5, 6, 6});
       auto expected = addMany(new LinkedList(1), vector<int>{3, 4, 5, 6});
-      cout<<"Test";
+
       auto actual = removeDuplicatesFromLinkedList(input);
 
 }
